@@ -6,3 +6,4 @@ https://www.visualcrossing.com/weather/weather-data-services#/viewData
 https://covidtracking.com/data/download
 
 Methodology: We will correlate the amount of positive cases to the average temperature in the region. 
+#100/100
