@@ -10,7 +10,7 @@ View(TempData)
 #Assign date format
 CovidData$Date <- as.Date(CovidData$Date)
 TempData$Date <- as.Date(TempData$Date)
-CovidData$positiveCasesViral <- as.numeric(CovidData$positiveIncrease)
+CovidData$positiveIncrease <- as.numeric(CovidData$positiveIncrease)
 str(CovidData$Date)
 str(TempData$Date)
 
@@ -20,3 +20,8 @@ View(DataSet)
 
 #Correlate Data
 cor(DataSet$Temperature, CovidData$positiveIncrease)
+
+#Plot Graph 
+Cases <- CovidData$positiveIncrease
+Temperature <- TempData$Temperature
+plot(Cases, Temperature, pch=19, col="blue")
