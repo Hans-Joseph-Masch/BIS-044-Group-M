@@ -1,5 +1,5 @@
 #Load .csv data
-CovidData <- read.csv("pennsylvania-history-covid.csv")
+CovidData <- read.csv("Test pennsylvania-history-covid.csv")
 data.frame(CovidData)
 View(CovidData)
 
@@ -8,10 +8,15 @@ data.frame(TempData)
 View(TempData)
 
 #
-CovidData$date <- as.Date(CovidData$date)
-TempData$Date.time <- as.Date(TempData$Date.time)
-str(CovidData$date)
-str(TempData$Date.time)
+CovidData$Date <- as.Date(CovidData$Date)
+TempData$Date <- as.Date(TempData$Date)
+CovidData$positiveCasesViral <- as.numeric(CovidData$positiveIncrease)
+str(CovidData$Date)
+str(TempData$Date)
 
-#Find a way to make the correlation 
+#Find a way to make the correlation
+DataSet <- merge(CovidData, TempData)
+View(DataSet)
 
+#
+cor(DataSet$Temperature, CovidData$positiveIncrease)

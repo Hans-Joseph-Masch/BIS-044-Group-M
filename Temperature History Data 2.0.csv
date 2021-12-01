@@ -1,4 +1,4 @@
-Name,Date time,Maximum Temperature,Minimum Temperature,Temperature,Wind Chill,Heat Index,Precipitation,Snow,Snow Depth,Wind Speed,Wind Direction,Wind Gust,Visibility,Cloud Cover,Relative Humidity,Conditions
+Name,Date ,Maximum Temperature,Minimum Temperature,Temperature,Wind Chill,Heat Index,Precipitation,Snow,Snow Depth,Wind Speed,Wind Direction,Wind Gust,Visibility,Cloud Cover,Relative Humidity,Conditions
 "PA, United States",2020-03-03,53.8,45,49.5,44.3,,0.3,0,0,26.8,165.79,43.9,6.4,64.2,80.46,"Rain, Partially cloudy"
 "PA, United States",2020-03-04,61.4,44,51.5,39.3,,0.01,0,0,16.5,275.04,37,9.9,49.7,43.72,"Rain, Partially cloudy"
 "PA, United States",2020-03-05,53.9,37.8,45.6,33.2,,0,0,0,15.5,238.17,24.9,9.9,14.7,43.58,Clear
